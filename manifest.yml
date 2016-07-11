@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mobile-test-santander
+  host: mobile-test-santander
+  disk_quota: 1024M
+  services:
+  - mobile-test-santander-AdvancedMobileAccess
+  - mobile-test-santander-imfpush
+  - mobile-test-santander-cloudantNoSQLDB
